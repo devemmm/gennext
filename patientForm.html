@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>openmrs</title>
+      <link rel="icon" href="./images/openmrs.png" type="image/icon type">
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style.css">
+ </head>
+ 
+     <header>
+         <img src="./images/openmrs.png" alt="openMrs" width="150px">
+          <div class="logo">
+             <nav>
+                 <ul class="float">
+                     <li><a href="#"><ion-icon name="search-outline"></ion-icon></a></li>
+                     <li><a href="#"><ion-icon name="build-outline"></ion-icon></a></li>
+                     <li><a href="#"><ion-icon name="add-outline"></ion-icon></a></li>
+                     <li><a href="#"><ion-icon name="person-circle-outline"></ion-icon></a></li>
+                     <li><a href="#"><ion-icon name="apps-outline"></ion-icon></a></li>
+                 </ul>
+             </nav> 
+          </div>
+      </header>
+         <a class="ho" href="#">Home</a> /
+         <a  href="#">Patient Registration</a> 
+         <div class="pat">
+             <h3>Create New Patient</h3>
+               <p class="jump">Jump to</p>  
+              
+                  <div>
+                     <a href="#"><ion-icon name="arrow-forward-circle-outline"></ion-icon> Identifiers</a>
+                  </div>
+                  <div>
+                       <a href="#"><ion-icon name="arrow-forward-circle-outline"></ion-icon> Personal Details</a>
+                  </div>
+                  <div>
+                     <a href="#"><ion-icon name="arrow-forward-circle-outline"></ion-icon> Domicile Details</a>
+                  </div>
+                  <div>
+                     <a href="#"><ion-icon name="arrow-forward-circle-outline"></ion-icon> Residential Details</a>
+                  </div>
+                  <div>
+                     <a href="#"><ion-icon name="arrow-forward-circle-outline"></ion-icon> Other Details</a>
+                  </div>                         
+        </div>
+     <main>    
+     <form action="#">
+        <label  class="sir">Search</label>
+      <div class="mb-3">
+        <label></label>
+         <select class="form-select">
+            <option>Unknown</option>
+         </select>
+         <label ></label>
+      </div>
+
+     <div>
+     <h6>Identifiers</h6>
+     <p style="color:grey">All field are required unless marked optional.</p> 
+     <div class="mb-3">
+        <label class="form-label">UPID</label>
+        <input type="text" class="form-control" required>
+        <div class="form-text"></div>
+
+        <label class="form-label">Primary Care</label>
+        <input type="text" class="form-control" required >
+        <label for="Care"></label>
+
+        <label class="form-label">NID</label>
+        <input type="text" class="form-control" required >
+        <label for="NID"></label>
+
+        <label class="form-label">NIN</label>
+        <input type="text" class="form-control" required>
+        <label for="NIN"></label>
+
+        <label class="form-label">NID Application</label>
+        <input type="text" class="form-control" required>
+        <label for="Application"></label>
+
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" required>
+        <label for="forpasword"></label>    
+     </div>
+     <h6>Personal Details</h6>
+     <p style="color:grey">All field are required unless marked optional.</p> 
+     <div class="mb-4">
+     <label class="form-label">UPID</label>
+     <input type="text" class="form-control" required>
+     <div class="form-text"></div>
+
+     <label class="form-label">Primary Care</label>
+     <input type="text" class="form-control" required >
+     <label ></label>
+
+     <div class="radio-gender">
+     <label class="form">Date of Birth</label>
+     <input type="date" class="form-control" required >
+     <label ></label>
+
+     <label class="form">Gender</label> 
+     <input type="radio"  required>
+      <label>Male</label>
+
+     <input type="radio" id="css"  required>
+      <label >Female</label>
+     </div>
+     <div>
+        <label  class="sir">Vital</label>
+        <select class="form-select">
+           <option>select</option>
+        </select>
+ 
+        <label  class="sir">Martial Status</label>
+        <select class="form-select">
+           <option>Select</option>
+        </select>
+ 
+        <label  class="sir">Nationality</label>
+        <select class="form-select">
+           <option>Rwandan</option>
+           <option>Congolese</option>
+        </select>
+     </div>
+     <label class="form-label">Father Name</label>
+     <input type="text" class="form-control" required>
+     <div class="form-text"></div>
+
+     <label class="form-label">Mother Name</label>
+     <input type="text" class="form-control" required >
+     <label ></label>
+
+     <label class="form-label">Spouse</label>
+     <input type="text" class="form-control" required >
+     <label ></label>
+     </div>
+
+     <h6>Domicile Details</h6>
+     <p style="color:grey">All field are required unless marked optional.</p> 
+     <div class="mb-3">
+        <label class="form-label">Country</label>
+        <input type="text" class="form-control" required>
+        <div   class="form-text"></div>
+
+        <label class="form-label">Province</label>
+        <input type="text" class="form-control" required >
+        <label for="Care"></label>
+
+        <label class="form-label">District</label>
+        <input type="text" class="form-control" required >
+        <label for="NID"></label>
+
+        <label class="form-label">Sector</label>
+        <input type="text" class="form-control" required>
+        <label for="NIN"></label>
+
+        <label class="form-label">Cell</label>
+        <input type="text" class="form-control" required>
+        <label for="Application"></label>
+
+        <label class="form-label">Village</label>
+        <input type="text" class="form-control" required>
+        <label ></label>   
+     </div>
+
+        <h6>Residential Details</h6>
+        <p style="color:grey">All field are required unless marked optional.</p> 
+        <div class="mb-3">
+                <label  class="sir">Country</label>
+                <select class="form-select">
+                    <option>Rwandan</option>
+                    <option>Congolese</option>
+                    <label></label>
+                </select>
+         
+                <label  class="sir">Province</label>
+                <select class="form-select">
+                   <option>Select</option>
+                   <label></label>
+                </select>
+               
+         
+                <label  class="sir">District</label>
+                <select class="form-select">
+                    <option>Select</option>
+                    <label></label>
+                </select>
+               
+
+                <label  class="sir">Sector</label>
+                <select class="form-select">
+                    <option>Select</option>
+                    <label></label>
+                </select> 
+                
+
+                <label  class="sir">Cell</label>
+                <select class="form-select">
+                    <option>Select</option>
+                    <label></label>
+                </select>
+                
+
+           <label class="form-label">Address</label>
+           <input type="text" class="form-control" required>
+           <label ></label> 
+        </div> 
+
+        <h6>Other Details</h6>
+        <p style="color:grey">All field are required unless marked optional.</p> 
+        <div class="mb-3">
+
+            <label class="form-label">Phone</label>
+            <input type="text" class="form-control" required>
+            <label ></label>
+
+                <label  class="sir">Education Level</label>
+                <select class="form-select">
+                    <option>Select</option>
+                    <label></label>
+                </select>
+
+           <label class="form-label">Religion</label>
+           <input type="text" class="form-control" required>
+           <label ></label> 
+
+            <label  class="sir">Professional</label>
+             <select class="form-select">
+                <option>Select</option>
+                <label></label>
+
+                <label  class="sir">Professional</label>
+             <select class="form-select">
+                <label></label>
+         </div>  
+     </div>
+
+     </form>
+     <button type="button" class="btn btn-success">Create Patient</button>
+     <button type="button" class="btn btn-light">Clear</button>
+     </main>    
+     <label></label>
+     <footer class="foot"></footer>
+ </body>
+</html>  
