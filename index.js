@@ -9,7 +9,7 @@ function populate(se1,se2){
     var optionArray =['gasabo|Gasabo','kicukiro|Kicukiro','nyarugenge|Nyarugenge'];
   }
    else if(se1.value == "northern"){
-    var optionArray =['musanze|Musanza','rurindo|Rurindo',' burera|Burera','gakenke|Gakenke','gicumbi|Gicumbi'];
+    var optionArray =['musanze|Musanza','rurindo|Rurindo','burera|Burera','gakenke|Gakenke','gicumbi|Gicumbi'];
   }
   else if(se1.value == "southern"){
     var optionArray =['gisagara|Gisagara','huye|Huye','kamonyi|Kamonyi','muhanga|Muhanga','nyamagabe|Nyamagabe'];
